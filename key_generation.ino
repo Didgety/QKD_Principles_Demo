@@ -34,6 +34,7 @@ int message[] = {0, 0, 0, 1, 0,
 
 void setup() {
   Serial.begin(9600); // 9600 baud
+  randomSeed(random(0, 9001);
 
   pinMode(laser, OUTPUT);
   pinMode(sensor, INPUT);
